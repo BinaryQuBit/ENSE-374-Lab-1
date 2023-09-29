@@ -28,13 +28,3 @@ body{
   color: blue;
   text-decoration: underline;
 }
-
-input{
-  width: 40%;
-  text-align: center;
-}
-
-.unchangable{
-  background-color: #F8FAFC;
-  border: 1px solid #ADAEAF;
-}
