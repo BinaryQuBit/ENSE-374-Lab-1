@@ -20,9 +20,10 @@ addButton.addEventListener('click', function() {
 
 sortButton.addEventListener('click', function() {
     let tasks = Array.from(render.children);
+    console.log(tasks);
     tasks = tasks.filter((task) => task.classList.contains('renderTask'));
     tasks.sort((a, b) => {
-        return a.textContent.localeCompare(b.textContent);
+        return a.textContent.localeCompare(b.textContent); // stack
     });
     let taskInputContainer = document.getElementById('insertBefore');
     tasks.forEach(task => {
