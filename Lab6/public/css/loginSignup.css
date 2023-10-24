@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body{
+    margin: 100px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.font{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button{
+    background-color: #0D6EFD;
+    color: white;
+    padding: 8px;
+    border: none;
+}
+
+.accordion{
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    box-shadow: 3px 3px 5px 2px grey;
+}
+
+.widthControl{
+    width: 80%;
+    border: 1px solid lightgrey;
+}
+
+/* To do */
+
+.container{
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    box-shadow: 3px 3px 5px 2px grey;
+    background-color: #F0F5F9;
+    padding: 1px;
+}
+
+.bi-gear-fill{
+    color: blue;
+}
+
+.link{
+    color: blue;
+}
+
+.paddedButton{
+    margin: 30px;
+}
+
+.taskContainer{
+    width: 450px;
+    margin: auto;
+    box-shadow: 3px 3px 5px 2px grey;
+    background-color: #F0F5F9;
+    padding: 10px;
+}
+
+.task{
+    border: 1px solid lightgrey;
+    background-color: #E9ECEF;
+    color: grey;
+    padding: 5px;
+}
+
+.buttonintodo{
+    background-color: #F0F5F9;
+    color: grey;
+    border: 1px solid grey;
+}
+
+.taskwithbutton{
+    display: flex;
+}
+
+.checkboxcustom{
+    background-color: E9ECEF;
+    padding: 5px;
+    border: 1px solid lightgrey;
+}
