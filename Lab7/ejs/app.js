@@ -137,7 +137,15 @@ app.post('/register', (req, res) => {
                 // If email is empty
                 if (req.body["registerEmail"] === '')
                 {
-                    console.log("Empty");
+                    console.log("Email is Empty");
+                    userExists = true;
+                    break;  
+                }
+
+                 // If password is empty
+                if (req.body["registerPassword"] === '')
+                {
+                    console.log("Password is Empty");
                     userExists = true;
                     break;  
                 }
@@ -154,12 +162,28 @@ app.post('/register', (req, res) => {
             // Admit new user
             if (userExists === false)
             {
-                const newUser = {
-                    id: users[users.length - 1].id + 1,
-                    email: req.body.registerEmail,
-                    password: req.body.registerPassword
-                };
-                users.push(newUser);
+                // if database is empty
+                if(users.length === 0)
+                {
+                    const newUser = {
+                        id: 1,
+                        email: req.body.registerEmail,
+                        password: req.body.registerPassword
+                    }
+                    // push the user and write it in the json
+                    users.push(newUser);
+                }
+
+                // if database has users
+                else
+                {
+                    const newUser = {
+                        id: users[users.length - 1].id + 1,
+                        email: req.body.registerEmail,
+                        password: req.body.registerPassword
+                    };
+                    users.push(newUser);
+                }
                 fs.writeFile(__dirname + "/data/users.json", JSON.stringify(users), err => {
                     if (err)
                     {
