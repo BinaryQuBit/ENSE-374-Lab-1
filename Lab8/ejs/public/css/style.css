@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* Sign Up */
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+    padding: 50px;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.button{
+    background-color: #0D6EFD;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.accordion{
+    text-align: center;
+    width: 350px;
+    margin: auto;
+    box-shadow: 3px 3px 5px 2px grey;
+}
+
+.widthControl{
+    width: 80%;
+    border: 1px solid lightgrey;
+}
+
+/* To do */
+
+.link{
+    color: blue;
+    text-decoration: underline;
+    background-color: #F0F5F9;
+    width: 400px;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 2px 2px 2px 2px darkgrey;
+    text-align: center;
+  }
+
+.mainContainer{
+    width: 700px;
+    margin: auto;
+    padding-bottom: 200px;
+}
+
+.addContainer > :first-child {
+    background-color: white;
+}
+
+ 
+.stage1, .stage2, .stage3{
+    margin: 20px;
+    background-color: #F0F5F9;
+}
+
+.stage4{
+    margin: 20px;
+    background-color: #F0F5F9;
+}
+
+.addContainer, .claimContainer, .completeContainer, .abandonContainer{
+    margin: 5px;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.inputBox{
+    width: 100%;
+    border: 1px solid lightgrey;
+    text-align: left;
+    padding: 5px;
+    background-color: #E9ECEF;
+    color: grey;
+}
+
+.removeCompleteButton{
+    display: block;
+    margin: 0 auto;
+}
+
+.textAlign{
+    text-align: center;
+    font-weight: 700;
+}
