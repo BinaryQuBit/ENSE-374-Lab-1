@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
+.font{
+    font-family: 'Poppins', sans-serif;
+}
+
 /* Sign Up */
 
 body{
@@ -9,6 +13,7 @@ body{
 h1{
     text-align: center;
     padding: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 
 h3{
@@ -16,6 +21,7 @@ h3{
 }
 
 .button{
+    font-family: 'Poppins', sans-serif;
     background-color: #0D6EFD;
     color: white;
     padding: 8px;
@@ -24,13 +30,16 @@ h3{
 }
 
 .accordion{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     width: 350px;
     margin: auto;
+    margin-bottom: 40px;
     box-shadow: 3px 3px 5px 2px grey;
 }
 
 .widthControl{
+    font-family: 'Poppins', sans-serif;
     width: 80%;
     border: 1px solid lightgrey;
 }
@@ -38,6 +47,7 @@ h3{
 /* To do */
 
 .link{
+    font-family: 'Poppins', sans-serif;
     color: blue;
     text-decoration: underline;
     background-color: #F0F5F9;
@@ -49,27 +59,32 @@ h3{
   }
 
 .mainContainer{
+    font-family: 'Poppins', sans-serif;
     width: 700px;
     margin: auto;
     padding-bottom: 200px;
 }
 
 .addContainer > :first-child {
+    font-family: 'Poppins', sans-serif;
     background-color: white;
 }
 
  
 .stage1, .stage2, .stage3{
+    font-family: 'Poppins', sans-serif;
     margin: 20px;
     background-color: #F0F5F9;
 }
 
 .stage4{
+    font-family: 'Poppins', sans-serif;
     margin: 20px;
     background-color: #F0F5F9;
 }
 
 .addContainer, .claimContainer, .completeContainer, .abandonContainer{
+    font-family: 'Poppins', sans-serif;
     margin: 5px;
     display: flex;
     justify-content: center;
@@ -77,6 +92,7 @@ h3{
 }
 
 .inputBox{
+    font-family: 'Poppins', sans-serif;
     width: 100%;
     border: 1px solid lightgrey;
     text-align: left;
@@ -86,11 +102,14 @@ h3{
 }
 
 .removeCompleteButton{
+    font-family: 'Poppins', sans-serif;
     display: block;
     margin: 0 auto;
 }
 
 .textAlign{
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     font-weight: 700;
 }
+
