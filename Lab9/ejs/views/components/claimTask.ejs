@@ -1,0 +1,29 @@
+<% if (unclaimedCurrentUser.length > 0) { %>
+    <p class="textAlign">Task Created By You</p>
+    <div class="stage2">
+        <form action="/claim" method="post">
+            <% unclaimedCurrentUser.forEach(function(task) { %>
+                <div class="claimContainer">
+                    <span class="inputBox"><%= task.taskText %></span>
+                    <button type="submit" value="<%= task._id.toString() %>" name="taskId" class="claimButton button">Claim</button>
+                </div>
+            <% }); %>
+        </form>
+    </div>
+<% } %>
+
+<% if (unclaimedDifferentUser.length > 0) { %>
+    <p class="textAlign">Task Created By Different Users</p>
+    <div class="stage2">
+        <form action="/claim" method="post">
+            <% unclaimedDifferentUser.forEach(function(task) { %>
+                <div class="claimContainer">
+                    <span class="inputBox"><%= task.taskText %></span>
+                    <button type="submit" value="<%= task._id.toString() %>" name="taskId" class="claimButton button">Claim</button>
+                </div>
+            <% }); %>  
+        </form>
+    </div>
+<% } %>
+
+
