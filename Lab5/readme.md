@@ -1,3 +1,0 @@
-## The task was to create a jquery app for DOM Manipulation
-
-### I started of by creating a page in html that I want to display. I slowly slowly started to remove elements and replacing the code with jquery. I started of with body tag and replaced everything. I wanted to create the whole page on jquery which doesnt render anything. I have used stack overflow for syntax and the code has been commented fully as what I understand. There is nothing in the .html; just the doc template. Fell free to ask me anything about my code @ apy165@uregina.ca
