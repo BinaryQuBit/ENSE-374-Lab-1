@@ -12,7 +12,7 @@
 <br>
 
 <div align="center" style="width: 100%;">
-    <a href="https://todolist.csproject.org/"><img src="./readmeSetup/videoGIFS/todoList.gif" style="width: 100%">Final Product</a>
+    <a href="https://todolist.csproject.org/"><img src="./readmeSetup/videoGIFS/todoList.gif" style="width: 100%">Final Product (Authentication: todo2023)</a>
 </div>
 
 <br>
@@ -101,6 +101,8 @@
 <div style="width: 100%;">
     <a href="#"><img src="./readmeSetup/resources.svg" style="width: 100%"></a>
 </div>
+
+<br>
 
 - <a href="https://adamtilson.github.io/labs/ense-374/lab-2/#">Prototypes</a>
 
