@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  todolist:
+    platform: linux/arm64
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - "88:88"
+    volumes:
+      - ./app:/app
