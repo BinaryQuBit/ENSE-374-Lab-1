@@ -47,7 +47,7 @@
     <a href="#"><img src="./readmeSetup/techStack.svg" style="width: 100%"></a>
 </div>
 
-<h3 align = "center">Languages</h3>
+<h3 align = "center">👩‍💻 Languages</h3>
 
 <p align="center">
   <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
@@ -57,7 +57,7 @@
 
 <h2></h2>
 
-<h3 align="center">Development Tools & Environments</h3>
+<h3 align="center">🚀 Development Tools & Environments</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
   <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" alt="vsCode">
@@ -91,7 +91,7 @@
 
 <h2></h2>
 
-<h3 align="center">Hardware and Microcontroller Boards</h3>
+<h3 align="center">⚙️ Hardware and Microcontroller Boards</h3>
 <p align="center">
   <img src="https://img.shields.io/badge/-RaspberryPi-C51A4A?style=for-the-badge&logo=Raspberry-Pi" alt="Raspberry Pi">
 </p>
