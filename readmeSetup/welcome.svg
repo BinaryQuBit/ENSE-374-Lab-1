@@ -79,15 +79,12 @@
           flex-direction: column;
         }
 
-        ul {
+        .items p {
           font-size: 14px;
           line-height: 26px;
           color: #9e3ffd;
           font-weight: 700;
           font-family: "Open Sans", sans-serif;
-        }
-
-        ul li {
           display: flex;
           letter-spacing: 0.125vw;
         }
@@ -98,12 +95,8 @@
         <span><em>todo list</em></span>
       </h1>
       <section class='items'>
-        <ul>
-          <li>An application to create, assign and claim tasks</li>
-        </ul>
-        <ul>
-          <li>between team members</li>
-        </ul>
+        <p>An application to create, assign and claim tasks</p>
+        <p>between team members</p>
       </section>
     </div>
   </foreignObject>
