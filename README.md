@@ -231,6 +231,8 @@
 
 - <a href="https://adamtilson.github.io/labs/ense-374/lab-2/#">Prototypes</a>
 
+<br>
+
 <div style="width: 100%;">
   <a href="#"><img src="https://raw.githubusercontent.com/BinaryQuBit/Readme-Setup/626da83e39e3bc3f0359d0fb63a73a934c32f932/headers/contributors.svg" style="width: 100%"></a>
 </div>
