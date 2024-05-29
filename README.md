@@ -201,6 +201,8 @@
 - Secure data handling with passport
 - Cross-device compatibility (desktops, laptops, tablets, smartphones)
 
+<br>
+
 <div style="width: 100%;">
     <a href="#"><img src="https://raw.githubusercontent.com/BinaryQuBit/Readme-Setup/d7f1f1d16c607a9124692b001b07b9f185f41cbf/headers/nextSteps.svg" style="width: 100%"></a>
 </div>
